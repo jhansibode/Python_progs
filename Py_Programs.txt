@@ -1,0 +1,106 @@
+1) palindrom Program :
+
+a =str(input())
+b =str(a[ : : -1])
+print(a)
+print(b)
+if (a==b):
+    print("value matching")
+else:
+    print("value not matching")
+print("palindrom program")
+
+
+O/P:
+
+malayalam
+malayalam
+value matching
+palindrom program
+
+
+2)
+a = int(input())
+if a % 2 == 0:
+    print("even")
+else:
+    print("odd")
+print("success")
+
+O/P:
+
+20
+even
+success
+
+3) find the Positive and Negative Values:
+
+b = int(input())
+if (b<0):
+    print("negative value")
+elif (b>0):
+    print("postive")
+else:
+    print("unknown value")
+
+O/P:
+
+-1
+negative value
+
+4)Student Marks :
+
+p = int(input())
+c = int(input())
+m = int(input())
+mres = (p/3+c/3+m/3)
+print(mres)
+if(mres < 200 and mres>190):
+    print("Studied in IIIT Bangalore")
+elif(mres <190 and mres >180):
+    print("Studied in IIIT Mumbai")
+elif(mres<180 and mres >150):
+    print("Studied in IIIT Bangalore")
+else:
+    print("Not from IIT")
+
+
+O/P:
+
+180
+189
+187
+185.33333333333334
+Studied in IIIT Mumbai
+
+5)
+val = [1,2,3,4,5,6,7,8]
+val2 = (val[0],val[-1])
+print(val2)
+
+
+O/P:
+
+(1, 8)
+
+6)Armstrong Value:
+
+val = int(input())
+temp1 = val
+add = 0
+n = len(str(temp1))
+while (temp1 != 0):
+    digit = temp1 %10
+    add = add+digit **n
+    temp1 = temp1 //10
+if val == add:
+        print(val ,"is amstrong")
+else:
+    print(val ,"not amstrong")
+
+
+O/P:
+
+123
+123 not amstrong
+
