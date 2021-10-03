@@ -1,0 +1,26 @@
+'''my_fav_str = "Python"
+print(my_fav_str[0])
+print(my_fav_str[5])
+print(my_fav_str[0:5])
+print(my_fav_str[-1])
+print(my_fav_str[5])'''
+
+mylist =[3,5,7,8,5,10,15]
+print(mylist.index(10))
+print(mylist.count(5))
+#mylist.clear()
+my_new_list = mylist
+my_one_list = mylist.copy()
+print(id(mylist))
+print(id(my_one_list))
+mylist.insert(2,30)
+print(mylist)
+mynewlist =[4,5,6]
+mylist.extend(mynewlist)
+print(mylist)
+print(mylist.pop())
+print(mylist.pop(2))
+print(mylist)
+mylist.remove(5)
+
+print(mylist)
