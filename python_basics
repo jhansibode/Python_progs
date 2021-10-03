@@ -1,0 +1,37 @@
+#print("welcome to Python")
+
+'''x ="python"
+y ="_".join(x)
+print(y)
+
+print("*".join(x))
+print("\n".join(x))
+print("\t".join(x))'''
+
+'''
+MyString ="Python"
+MyNewString="Developer"
+MyNextString = "StringOperation"
+print(f"{MyString.center(20)}\n{MyNewString.center(20)}\n{MyNextString.center(20)}")
+print(MyString.zfill(17))'''
+
+
+
+'''my_str ="python Tutorials"
+print(my_str.startswith('p'))
+print(my_str.startswith('pyt'))
+print(my_str.endswith('p'))
+#print(my_str.islower('p'))
+print(my_str.isupper('p'))
+print(my_str.istitle('p'))
+my_new_str =" "
+print(my_new_str.isspace())
+print(my_new_str.isalpha())
+print(my_new_str.isnumeric())'''
+
+my_string = "python Scripting"
+my_String_lower=my_string.upper()
+print(my_String_lower)
+print(my_string.swapcase())
+print(my_string.title())
+print(my_string.capitalize())
