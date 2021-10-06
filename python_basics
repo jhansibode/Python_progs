@@ -33,5 +33,41 @@ my_string = "python Scripting"
 my_String_lower=my_string.upper()
 print(my_String_lower)
 print(my_string.swapcase())
+
+
+
+--------------->Conditional Statments-------------
+
+a = eval(input("enter first number:"))
+b = eval(input("enter second number:"))
+if a>b:
+    print(f'{a}is greater then {b}')
+else:
+    print(f'{a} is less then{b}')
+
 print(my_string.title())
 print(my_string.capitalize())
+
+------
+
+num = eval(input("Enter any Number between 1- 10 range"))
+if num in [1,2,3,4,5,6,7,8,9,10]:
+    if num ==1:
+        print("one")
+    elif num==2:
+        print("Two")
+    elif num==3:
+        print("three")
+else:
+    print("out of range number please select 1 to 10 range")
+        
+        
+ ---------------------------num = eval(input("enter a valid number between 1 to 10"))
+num_word={1:'one',2:'two',3:'three',4:'four',5:'Five',6:'six',7:'seven',8:'eight',9:'Nine',10:'ten'}
+
+if num in [1,2,3,4,5,6,7,8,9,10]:
+    print(num_word.get(num))
+else:
+    print("your number is outof range ,enter the correct number between 1 to 10")-------------
+ 
+ 
