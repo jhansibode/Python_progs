@@ -14,3 +14,18 @@ elif user_action =="title":
     print(user_str.title())
 else:
     print("Your Option is invalid,please select valid option:/upper/lower/title")
+    
+    --------------------------------
+    
+    
+    os.path.sep
+os.path.basename(path)
+os.path.dirname(path)
+os.path.join(path1,path2)
+os.path.split(path)-->is used to split the path name into a pair head and tail
+os.path.getsize(path)-->in bytes
+os.path.exists(path)
+os.path.isfile(path)
+os.path.isdir(path)
+os.path.islink(path)
+after time module we will also discuss:getatime ,getctime,getmtime
