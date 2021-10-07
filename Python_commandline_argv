@@ -1,0 +1,16 @@
+import sys
+if len(sys.argv)!=3:
+    print("Usage:")
+    print('{sys.argv[0]} <your_req_string> <lower|upper|title>')
+    sys.exit()
+user_str =sys.argv[1]
+user_action =sys.argv[2]
+
+if user_action == "lower":
+    print(user_str.lower())
+elif user_action =="upper":
+    print(user_str.upper())
+elif user_action =="title":
+    print(user_str.title())
+else:
+    print("Your Option is invalid,please select valid option:/upper/lower/title")
