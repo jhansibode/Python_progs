@@ -29,3 +29,11 @@ os.path.isfile(path)
 os.path.isdir(path)
 os.path.islink(path)
 after time module we will also discuss:getatime ,getctime,getmtime
+to clear your terminal:
+
+import os
+import platform
+if platform.system()=="windows":
+	os.system("cls")
+else:
+	os.system("clear")
