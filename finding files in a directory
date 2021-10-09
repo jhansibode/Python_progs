@@ -1,0 +1,20 @@
+import os
+req_path=raw_input("enter a directory path: ")
+#req_ext =input("enter the required file extenstion  .py/ .sh/ .log/ .txt:")
+if os.path.isfile(req_path):
+  print("the given path{req_path} is a file.Please pass only directory path")
+else:
+  all_fs_ds=os.listdir(req_path)
+  if len(all_fs_ds)==0:
+     print("the given path {req_path} is empty path")
+  else:
+    req_ex =raw_input("enter the required files extenstion .py/ .sh/ .log/.txt:")
+    req_files=[]
+    for each_f in all_fs_ds:
+       if each_f.endswith(req_ex):
+           req_files.append(each_f)
+    if len(req_files)==0:
+          print("there is no {req_ex} files in the location of {req_path}")
+    else:
+           print(" there are {len(req_files)} files in the location of {req_path} with an extention of {reg_ex}")
+           print("so, the files are :{req_files}")
