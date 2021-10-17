@@ -19,3 +19,13 @@ total = bill + tip
 share = total/2  
 
 print("Each person needs to pay:"+str(share))
+
+4) def rectangle_area(base ,height):
+    area = base* height
+    print("Area of the rectangle is:"+ str(area))
+rectangle_area(4,5)
+
+5) def square(height ,wedith):
+    area = height * wedith
+    print("The area of the Square is:"+ str(area))
+square(4,4)
