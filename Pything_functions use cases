@@ -1,0 +1,21 @@
+1)def month_days(month,days):
+    print(month + " has " + str(days) + " days.")
+month_days("June" ,"30")
+month_days("July" ,"31")
+
+
+
+2)def lucky_number(name):
+    number = len(name) * 9
+    print("Hello " + name + " . Your lucky number is  " + str(number))
+lucky_number("jhansi")
+
+3) bill = 47.28
+
+tip = bill * 0.15
+
+total = bill + tip
+
+share = total/2  
+
+print("Each person needs to pay:"+str(share))
